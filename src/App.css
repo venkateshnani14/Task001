@@ -1,13 +1,13 @@
 .App {
   text-align: center;
 }
-
+*{overflow-x: hidden;}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion: no-preference){
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+@media(max-width:450px){#footerParent{display: none;}}
+@media(min-width:451px){#mobFooter{display: none;}}
+.bg-black{background-color: black;}
+.text3Parent{display: flex;justify-content: end;}
+.text3Container{max-width: 50%;}
+.homeParentDiv{z-index: 1;}
+.secondBulk{z-index: 2;position: relative;bottom: 50%;}
+.stylester{background-image: linear-gradient(45deg,rgb(2, 166, 29),rgb(2, 188, 188));-webkit-background-clip:text;color: transparent !important;}
+.objParent{width: fit-content;}
+#navbar{background-color: black}
+#owlText1,#owlText2,#text3{font-size: 5vw;color: white;}
+#text3{text-align: justify;text-align: right;}
+#sectionOne{height:min-content;z-index: 1}
+#sectionTwo{background:linear-gradient(45deg,rgb(2, 166, 29),rgb(2, 188, 188))}
+#img1{height: 12vw;width:30vw;background-color: lightgrey;}
+#img2{height: 12vw;width:30vw;background-color: black;display: flex;justify-content: center;align-items: center;font-size: 2vw;}
+#obj p{font-size: 2vw}
+#imgText{font-size: 2vw;}
+#sectionFour{background-image: url(/public/img/background.jpg);background-position: center;background-repeat: no-repeat;background-size:cover;height: fit-content;margin-bottom: 0px;padding-bottom: 0px;}
+#fourthSectionText{font-size: 5vw;font-weight: 400;font-family:Georgia, 'Times New Roman', Times, serif;text-align: start;padding: 3%;}
+#footerList{list-style-type: none;}
+#footerParent{background-color: black;height: fit-content;}
+#footerList Li a{color: whitesmoke;word-spacing: 2px;padding-top: 4%;}
+#icon,#icon2{font-size: 2vw;color: whitesmoke;}
+#icon:hover{cursor: pointer;color:darkgrey}
+#icon2:hover{cursor: pointer;color: darkgrey;}
+#mobFooter ul{list-style-type: none;}
+#mobFooter ul li a{color: whitesmoke;font-size: 10px;}
+#mobFooter ul li a:hover{text-decoration: underline;}
+#footerLogo{min-width: 100px;}
+#loginBtn{background: linear-gradient(90deg,rgb(10, 205, 0),rgb(1, 203, 197));}
+#navbarUL li a{font-size: 1.4vw;font-weight: bold;}
+
+
