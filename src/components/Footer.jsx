@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faXTwitter, faInstagram, faAndroid } from '@fortawesome/free-brands-svg-icons'
+import { faXTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = ()=>{
     const divStyle = {height:"40vh"}
@@ -31,8 +31,7 @@ const Footer = ()=>{
         </div>
        </div>
        </div>
-    
-
+       {/* MOBILE */}
      <div id='mobFooter' className='bg-black text-light mb-0 pb-0'>
         <ul className='mb-0 pb-0'>
         <li className='py-1'><a href="/">About</a></li>
